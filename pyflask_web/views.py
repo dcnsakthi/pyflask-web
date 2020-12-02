@@ -30,8 +30,18 @@ def contact():
 def about():
     """Renders the about page."""
     return render_template(
-        'about.html',
+        'page.html',
         title='About',
         year=datetime.now().year,
         message='This is application description page.'
     )
+@app.route('/admin')
+def admin():
+    """Renders the about page."""
+    return render_template(
+        'page.html',
+        title='Admin',
+        year=datetime.now().year,
+        message='This is Admin page.'
+    )
+

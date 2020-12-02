@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pyflask_web\templates\page.html" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
     <Content Include="pyflask_web\static\content\bootstrap.css" />
     <Content Include="pyflask_web\static\content\bootstrap.min.css" />
@@ -68,6 +69,7 @@
     <Content Include="pyflask_web\templates\contact.html" />
     <Content Include="pyflask_web\templates\index.html" />
     <Content Include="pyflask_web\templates\layout.html" />
+    <Content Include="screenshot-home.JPG" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
